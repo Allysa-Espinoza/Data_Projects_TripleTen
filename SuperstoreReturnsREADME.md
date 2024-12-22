@@ -1,16 +1,20 @@
 # SUPERSTORE RETURNS ANALYSIS
 
-## Overview
-* This is an updated and better version of my movie app, where I only had 10 personal movies, This app fetches data from the TMDB API to show information about movies. This App also uses another Api that allows the user to send voice command to the app and the app will do it. 
+## Description
+* Superstore commissioned this project to have its operations reviewed, increase its profitability, and avoid bankruptcy. Superstore wanted its most important centers for profit and loss identified along with quantifying where and when to invest in advertising and pinpoint products with abnormal return rates.
 
-### Question/Commands you can ask the app and the app will give you an answer or action.
+## Findings
+* The two biggest centers for profit and loss, each, and their respective categories were identified as the following: office supplies in California and Technology in New York, Furniture in Illinois, and Technology in Ohio, respectively.
+* An advertising budget was justified by identifying the 3 best combinations of states and months of the year to advertise in: Indiana during October, Vermont during November, and Washington during March. After running a return on ad spend ratio, and Superstore willing to pay 1/5 of profits on advertising, respectively, the Superstore should be willing to pay the following: $128.62, $119.20, and $104.26.
+
+### Media
 
 1. What does this app do?
 2. Give the command [go to] "pick a genre/category"
 3. Give the command "Change screen Mode" 
 4. More command and functionalities to come... 
 
-### Prerequisites
+### Link to project page
 * You need to create an account and get an API key in the MovieDatabase Api [Follow the link -> ](https://developers.themoviedb.org/3)
 
 ### Functionality
