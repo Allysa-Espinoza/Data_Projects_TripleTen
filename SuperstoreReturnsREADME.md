@@ -23,22 +23,21 @@
 
 
 ### Deployment Instructions & System Requirements
-Download Tableau Public
+1. Download Tableau Public
+* Visit the official Tableau Public download page: Tableau Public Download
+* Click the "Download Tableau Public" button to begin the download.
 
-Visit the official Tableau Public download page: Tableau Public Download
-Click the "Download Tableau Public" button to begin the download.
-Install Tableau Public
+2.Install Tableau Public
+* Once the installer has downloaded, locate and double-click the .exe (Windows) or .dmg (Mac) file to start the installation process.
+* Follow the on-screen prompts to complete the installation:
+** Windows: Click "Next" to proceed through the setup wizard, and select "Install".
+** Mac: Drag the Tableau Public icon to your "Applications" folder to complete the installation.
 
-Once the installer has downloaded, locate and double-click the .exe (Windows) or .dmg (Mac) file to start the installation process.
-Follow the on-screen prompts to complete the installation:
-Windows: Click "Next" to proceed through the setup wizard, and select "Install".
-Mac: Drag the Tableau Public icon to your "Applications" folder to complete the installation.
-Launch Tableau Public
-
+3. Launch Tableau Public
 After installation, open Tableau Public by clicking on the desktop icon (or from your Applications folder on Mac).
 The first time you launch Tableau Public, you will be asked to sign in to your Tableau Public account (you can create a free account if you don’t have one).
-Create and Publish Visualizations
 
+4. Create and Publish Visualizations
 Once logged in, you can start creating your visualizations by importing your data (Excel, Google Sheets, etc.).
 Design your visualizations using Tableau's drag-and-drop interface.
 After creating your work, click the "File" menu and select "Save to Tableau Public" to upload your visualization to the Tableau Public server for sharing online.
