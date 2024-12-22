@@ -23,7 +23,7 @@
 
 
 ### Deployment Instructions & System Requirements
-##Deployment Instructions for Tableau Public
+## Deployment Instructions for Tableau Public
 
 1. Download Tableau Public
 * Visit the official Tableau Public download page: Tableau Public Download
@@ -44,10 +44,10 @@
 * Design your visualizations using Tableau's drag-and-drop interface.
 * After creating your work, click the "File" menu and select "Save to Tableau Public" to upload your visualization to the Tableau Public server for sharing online.
 
-##System Requirements for Tableau Public
+## System Requirements for Tableau Public
 Tableau Public is available for both Windows and Mac, and here are the minimum system requirements for each platform:
 
-#For Windows:
+# For Windows:
 * Operating System:
   * Windows 10 (64-bit) or Windows 11
   * Windows 8.1 (64-bit) or Windows 7 (64-bit) (Service Pack 1 or higher)
@@ -64,18 +64,18 @@ Tableau Public is available for both Windows and Mac, and here are the minimum s
 * Internet Connection:
   * Required for downloading Tableau Public and for saving visualizations to Tableau Public's online platform.
 
-#For Mac:
-Operating System:
-macOS 10.15 (Catalina) or later
-Processor:
-Intel Core i3 (or better) processor
-RAM:
-Minimum 4 GB (8 GB or more recommended for optimal performance)
-Disk Space:
-At least 1.5 GB of free disk space
-Display:
-Resolution of 1280 x 800 or higher
-Graphics:
-A compatible graphics card with support for OpenGL 3.2 or later
-Internet Connection:
-Required for downloading Tableau Public and saving work to the cloud.
+# For Mac:
+* Operating System:
+  *macOS 10.15 (Catalina) or later
+* Processor:
+  * Intel Core i3 (or better) processor
+* RAM:
+  * Minimum 4 GB (8 GB or more recommended for optimal performance)
+* Disk Space:
+  * At least 1.5 GB of free disk space
+* Display:
+  * Resolution of 1280 x 800 or higher
+* Graphics:
+  * A compatible graphics card with support for OpenGL 3.2 or later
+* Internet Connection:
+  * Required for downloading Tableau Public and saving work to the cloud.
