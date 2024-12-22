@@ -12,12 +12,11 @@
 ![04C8B086-99C1-4CDA-A5BD-22900EEC8C08](https://github.com/user-attachments/assets/d941308b-5a7e-4a71-bab1-09c23af2a1d4)
 [Advertising Chart.pdf](https://github.com/user-attachments/files/18221774/Advertising.Chart.pdf)
 [Profits & Losses A.pdf](https://github.com/user-attachments/files/18221781/Profits.Losses.A.pdf)
-
-
+![9FEA711A-834E-44EE-86A9-70212D56B84C_1_102_o](https://github.com/user-attachments/assets/99c46c4e-d8e6-42b2-8760-2546b0f7119a)
 
 
 ### Link to project page
-* 
+* https://public.tableau.com/views/SuperstoreReturnsAnalysis_17347924139440/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
 ### Functionality
