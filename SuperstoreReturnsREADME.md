@@ -2,7 +2,9 @@
 
 ## Description & Methods
 * Superstore commissioned this project to review its operations, increase its profitability, and avoid bankruptcy. Superstore wanted its most important centers for profit and loss identified along with quantifying where and when to invest in advertising and pinpoint products with abnormal return rates.
-* The major centers for profit and loss were identified by 
+  * The major centers for profit and loss were identified by using the sum profit per state to create a stacked bar chart, clearly showing the states with biggest profits and losses. Product categories were also factored into the visualization.
+  * A heatmap visualization was created with Month of Order Date, State, and Average Profit as the measures. After the three best combinations of month and state were determined, a return on ad spend formula was used to tally what Superstore's advertising budget should be. They wanted to spend no more than 1/5th of their profits on adsvertisment.
+  * A simple bar chart was utilized to depict which products have abnormal return rates; a CASE statement was used to calculate return rates. 
 
 ## Findings
 * The two biggest centers for profit and loss, each, and their respective categories were identified as the following: office supplies in California and Technology in New York, Technology in Ohio, and Office Supplies in Texas, respectively.
@@ -43,6 +45,7 @@
 * Once logged in, you can start creating your visualizations by importing your data (Excel, Google Sheets, etc.).
 * Design your visualizations using Tableau's drag-and-drop interface.
 * After creating your work, click the "File" menu and select "Save to Tableau Public" to upload your visualization to the Tableau Public server for sharing online.
+
 
 #### System Requirements for Tableau Public
 Tableau Public is available for both Windows and Mac, and here are the minimum system requirements for each platform:
