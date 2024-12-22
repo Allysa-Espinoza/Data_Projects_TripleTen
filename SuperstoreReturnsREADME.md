@@ -1,11 +1,12 @@
 # SUPERSTORE RETURNS ANALYSIS
 
 ## Description
-* Superstore commissioned this project to have its operations reviewed, increase its profitability, and avoid bankruptcy. Superstore wanted its most important centers for profit and loss identified along with quantifying where and when to invest in advertising and pinpoint products with abnormal return rates.
+* Superstore commissioned this project to review its operations, increase its profitability, and avoid bankruptcy. Superstore wanted its most important centers for profit and loss identified along with quantifying where and when to invest in advertising and pinpoint products with abnormal return rates.
 
 ## Findings
 * The two biggest centers for profit and loss, each, and their respective categories were identified as the following: office supplies in California and Technology in New York, Furniture in Illinois, and Technology in Ohio, respectively.
-* An advertising budget was justified by identifying the 3 best combinations of states and months of the year to advertise in: Indiana during October, Vermont during November, and Washington during March. After running a return on ad spend ratio, and Superstore willing to pay 1/5 of profits on advertising, respectively, the Superstore should be willing to pay the following: $128.62, $119.20, and $104.26.
+* An advertising budget was justified by identifying the 3 best combinations of states and months of the year to advertise in: Indiana during October, Vermont during November, and Washington during March. After running a return on ad spend ratio, and Superstore willing to pay 1/5 of advertising profits, respectively, the Superstore should be willing to pay the following: $128.62, $119.20, and $104.26.
+* Through data visualization and calculated fields, both the products and customers with the highest return rates were determined. Based on the average profit against the average return rate on a dimension of State, Superstore was recommended for the continuation of business in Vermont as it had the highest ranking within the visualization measures.
 
 ### Media
 
@@ -15,7 +16,8 @@
 4. More command and functionalities to come... 
 
 ### Link to project page
-* You need to create an account and get an API key in the MovieDatabase Api [Follow the link -> ](https://developers.themoviedb.org/3)
+* https://public.tableau.com/views/SuperstoreReturnsAnalysis_17347924139440/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 
 ### Functionality
 
