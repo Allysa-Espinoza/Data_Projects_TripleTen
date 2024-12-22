@@ -47,7 +47,7 @@
 #### System Requirements for Tableau Public
 Tableau Public is available for both Windows and Mac, and here are the minimum system requirements for each platform:
 
-# For Windows:
+#### For Windows:
 * Operating System:
   * Windows 10 (64-bit) or Windows 11
   * Windows 8.1 (64-bit) or Windows 7 (64-bit) (Service Pack 1 or higher)
@@ -64,7 +64,7 @@ Tableau Public is available for both Windows and Mac, and here are the minimum s
 * Internet Connection:
   * Required for downloading Tableau Public and for saving visualizations to Tableau Public's online platform.
 
-# For Mac:
+#### For Mac:
 * Operating System:
   *macOS 10.15 (Catalina) or later
 * Processor:
