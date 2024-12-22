@@ -1,7 +1,8 @@
 # SUPERSTORE RETURNS ANALYSIS
 
-## Description
+## Description & Methods
 * Superstore commissioned this project to review its operations, increase its profitability, and avoid bankruptcy. Superstore wanted its most important centers for profit and loss identified along with quantifying where and when to invest in advertising and pinpoint products with abnormal return rates.
+* The major centers for profit and loss were identified by 
 
 ## Findings
 * The two biggest centers for profit and loss, each, and their respective categories were identified as the following: office supplies in California and Technology in New York, Technology in Ohio, and Office Supplies in Texas, respectively.
@@ -21,29 +22,23 @@
 * https://public.tableau.com/views/SuperstoreReturnsAnalysis_17347924139440/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
-### Functionality
+### Deployment Instructions & System Requirements
+Download Tableau Public
 
-* It allows the user to click on a specific Genre and the app fetches movies according to that Genre. 
-* Once the user clicks on a specific movie, the app will display information about the movie, from reviews to the cast. And according to the specific movie clicked the User will be able to see recommended movies that are similar to the clicked one. 
-* You can also ask the app 
+Visit the official Tableau Public download page: Tableau Public Download
+Click the "Download Tableau Public" button to begin the download.
+Install Tableau Public
 
-### Images
-![Image](src/Img/darkmode.png)
-![Image](src/Img/lightmode.png )
-![Image](src/Img/infolight.png )
-![Image](src/Img/infodark.png )
+Once the installer has downloaded, locate and double-click the .exe (Windows) or .dmg (Mac) file to start the installation process.
+Follow the on-screen prompts to complete the installation:
+Windows: Click "Next" to proceed through the setup wizard, and select "Install".
+Mac: Drag the Tableau Public icon to your "Applications" folder to complete the installation.
+Launch Tableau Public
 
-### Technologies
-* To build this app latest technologies were used, using React hooks and Redux for state management. As for Css this app uses Material UI for some parts, and the most using css grid/flex. 
+After installation, open Tableau Public by clicking on the desktop icon (or from your Applications folder on Mac).
+The first time you launch Tableau Public, you will be asked to sign in to your Tableau Public account (you can create a free account if you don’t have one).
+Create and Publish Visualizations
 
-- React JS
-- React Router
-- Redux, Redux-Thunk
-- MaterialUI
-- SCSS modules
-
-
-### Installing 
-* Clone the Repo and run npm install and npm run to run on localhost
-
-[Click here to see live Version --> ](https://newmovies.netlify.app)
+Once logged in, you can start creating your visualizations by importing your data (Excel, Google Sheets, etc.).
+Design your visualizations using Tableau's drag-and-drop interface.
+After creating your work, click the "File" menu and select "Save to Tableau Public" to upload your visualization to the Tableau Public server for sharing online.
