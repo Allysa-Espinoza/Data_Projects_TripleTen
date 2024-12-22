@@ -9,11 +9,10 @@
 * Through data visualization and calculated fields, both the products and customers with the highest return rates were determined. Based on the average profit against the average return rate on a dimension of State, Superstore was recommended for the continuation of business in Vermont as it had the highest ranking within the visualization measures.
 
 ### Media
+![04C8B086-99C1-4CDA-A5BD-22900EEC8C08](https://github.com/user-attachments/assets/d941308b-5a7e-4a71-bab1-09c23af2a1d4)
 
-1. What does this app do?
-2. Give the command [go to] "pick a genre/category"
-3. Give the command "Change screen Mode" 
-4. More command and functionalities to come... 
+
+
 
 ### Link to project page
 * https://public.tableau.com/views/SuperstoreReturnsAnalysis_17347924139440/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
