@@ -30,8 +30,8 @@
 2.Install Tableau Public
 * Once the installer has downloaded, locate and double-click the .exe (Windows) or .dmg (Mac) file to start the installation process.
 * Follow the on-screen prompts to complete the installation:
-** Windows: Click "Next" to proceed through the setup wizard, and select "Install".
-** Mac: Drag the Tableau Public icon to your "Applications" folder to complete the installation.
+  -Windows: Click "Next" to proceed through the setup wizard, and select "Install".
+  -Mac: Drag the Tableau Public icon to your "Applications" folder to complete the installation.
 
 3. Launch Tableau Public
 After installation, open Tableau Public by clicking on the desktop icon (or from your Applications folder on Mac).
