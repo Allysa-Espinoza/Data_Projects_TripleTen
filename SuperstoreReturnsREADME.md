@@ -1,9 +1,10 @@
 # SUPERSTORE RETURNS ANALYSIS
 
 ## Description & Methods
-* Superstore commissioned this project to review its operations, increase its profitability, and avoid bankruptcy. Superstore wanted its most important centers for profit and loss identified along with quantifying where and when to invest in advertising and pinpoint products with abnormal return rates.
-  * The major centers for profit and loss were identified by using the sum profit per state to create a stacked bar chart, clearly showing the states with biggest profits and losses. Product categories were also factored into the visualization.
-  * A heatmap visualization was created with Month of Order Date, State, and Average Profit as the measures. After the three best combinations of month and state were determined, a return on ad spend formula was used to tally what Superstore's advertising budget should be. They wanted to spend no more than 1/5th of their profits on adsvertisment.
+Superstore commissioned this project to review its operations, increase its profitability, and avoid bankruptcy. Superstore wanted its most important centers for profit and loss identified along with quantifying where and when to invest in advertising and pinpoint products with abnormal return rates.
+
+  * The major centers for profit and loss were identified by using the sum profit per state to create a stacked bar chart, clearly showing the states with the  biggest profits and losses. Product categories were also factored into the visualization.
+  * A heatmap visualization was created with the measures being; the Month of Order Date, State, and Average Profit. After the three best combinations of month and state were determined, a return on ad spend formula was used to tally what Superstore's advertising budget should be. They wanted to spend no more than 1/5th of their profits on advertising.
   * A simple bar chart was utilized to depict which products have abnormal return rates; a CASE statement was used to calculate return rates. 
 
 ## Findings
