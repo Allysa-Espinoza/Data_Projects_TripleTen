@@ -6,9 +6,13 @@ This project was conducted for Zomato, a multinational restaurant aggregator and
 The decomposition included:
     *   Questions: What restaurants are popular? What cuisines are popular? What restaurants generate the highest revenue? Why? What are the most profitable areas or restaurants?
     *   Hypothesis: The most popular and most profitable restaurants will have the biggest number of orders and highest sales amounts.
-    *   Visualizations: a heatmap, a bar chart, and a scatterplot.
+    *   Visualizations: a bubblemap, a bar chart, and a scatterplot.
     *   Dashboard Assembly: The orders and restaurant tables will be combined using an Outer JOIN, specifically a LEFT JOIN through the ID and r_id fields.
-  * A heatmap visualization was created with the measures being; the Month of Order Date, State, and Average Profit. After the three best combinations of month and state were determined, a return on ad spend formula was used to tally what Superstore's advertising budget should be. They wanted to spend no more than 1/5th of their profits on advertising.
+  * Once the plan was completed, the construction of the visualizations and dashboard was next.
+    * The first is a bubble map, created based on the sum of the sales quantity of each restaurant.
+    * The second is a simple bar chart that compares the sales amount of each restaurant.
+    * The last is a scatter plot that factors in the number of orders versus the sales amount($) of the restaurants.
+  * Finally, the dashboard assembled contains all three visualizations that adjust to each others' filtered settings. The dashboard shows the bigger picture within the data as well as any specifics within.
 
 ## Findings
 * The two biggest centers for profit and loss, each, and their respective categories were identified as the following: office supplies in California and Technology in New York, Technology in Ohio, and Office Supplies in Texas, respectively.
