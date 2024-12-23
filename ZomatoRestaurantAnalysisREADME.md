@@ -1,10 +1,15 @@
 # ZOMATO RESTAURANT ANALYSIS
 
 ## Description & Methods
-Zomato is a multinational restaurant aggregator and food delivery company. The following project was provided with several test datasets to analyze the business performance of restaurants registered in the service. 
-  * The major centers for profit and loss were identified by using the sum profit per state to create a stacked bar chart, clearly showing the states with the  biggest profits and losses. Product categories were also factored into the visualization.
+This project was conducted for Zomato, a multinational restaurant aggregator and food delivery company. Its goal was to understand the business performance of restaurants and customers by having analysts choose an area of focus to build a research plan around, conduct the analysis, and deliver conclusions and suggestions. The research area chosen was Restaurant analysis; learning, from the data, things like what restaurants are popular, which generate the highest revenue, and why.
+  * After choosing the type of analysis, the first part of the project was to build a plan- deciding on the metrics and parameters for the investigation, how to structure the dashboard, and making a detailed decomposition.
+  * 
+    The decomposition included:
+   *   Questions: What restaurants are popular? What cuisines are popular? What restaurants generate the highest revenue? Why? What are the most profitable areas or restaurants?
+   *   Hypothesis: The most popular and most profitable restaurants will have the biggest number of orders and highest sales amounts.
+   *   Visualizations: a heatmap, a bar chart, and a scatterplot.
+   *   Dashboard Assembly: The orders and restaurant tables will be combined using an Outer JOIN, specifically a LEFT JOIN through the ID and r_id fields.
   * A heatmap visualization was created with the measures being; the Month of Order Date, State, and Average Profit. After the three best combinations of month and state were determined, a return on ad spend formula was used to tally what Superstore's advertising budget should be. They wanted to spend no more than 1/5th of their profits on advertising.
-  * A simple bar chart was utilized to depict which products have abnormal return rates; a CASE statement was used to calculate return rates. 
 
 ## Findings
 * The two biggest centers for profit and loss, each, and their respective categories were identified as the following: office supplies in California and Technology in New York, Technology in Ohio, and Office Supplies in Texas, respectively.
