@@ -6,7 +6,7 @@ This project was conducted for Zomato, a multinational restaurant aggregator and
 The decomposition included:
     *   Questions: What restaurants are popular? What cuisines are popular? What restaurants generate the highest revenue? Why? What are the most profitable areas or restaurants?
     *   Hypothesis: The most popular and most profitable restaurants will have the biggest number of orders and highest sales amounts.
-    *   Visualizations: a bubblemap, a bar chart, and a scatterplot.
+    *   Visualizations: a bubble map, a bar chart, and a scatterplot.
     *   Dashboard Assembly: The orders and restaurant tables will be combined using an Outer JOIN, specifically a LEFT JOIN through the ID and r_id fields.
   * Once the plan was completed, the construction of the visualizations and dashboard was next.
     * The first is a bubble map, created based on the sum of the sales quantity of each restaurant.
@@ -15,21 +15,30 @@ The decomposition included:
   * Finally, the dashboard assembled contains all three visualizations that adjust to each others' filtered settings. The dashboard shows the bigger picture within the data as well as any specifics within.
 
 ## Findings
-* The two biggest centers for profit and loss, each, and their respective categories were identified as the following: office supplies in California and Technology in New York, Technology in Ohio, and Office Supplies in Texas, respectively.
-* An advertising budget was justified by identifying the 3 best combinations of states and months of the year to advertise in: Indiana during October, Vermont during November, and Washington during March. After running a return on ad spend ratio, and Superstore willing to pay 1/5 of advertising profits, respectively, the Superstore should be willing to pay the following: $128.62, $119.20, and $104.26.
-* Through data visualization and calculated fields, both the products and customers with the highest return rates were determined. Based on the average profit against the average return rate on a dimension of State, Superstore was recommended for the continuation of business in Vermont as it had the highest ranking within the visualization measures.
+* Fast food chains are bringing in the most in sales and customer orders. The visualization helps us see that American food chains take up four of the top five highest restaurants in order quantities. This visualization also helps us see that fast-food clients most likely require more of Zomato's resources and services.
+* More orders do not mean more in sales. It is important to note that sales amount and order quantity do not always have a positive correlation...let’s look at the restaurant Huber & Holly. With only 13 orders they amassed over $1.6M. Price ranges and restaurant class have a great impact on these correlations. 
+Strategically speaking, restaurants with a negative correlation, specifically like this one, would be the best clients to have for Zomato. More profits with less resources utilized. But that would be dependent on the business structure Zomato has with each client.
+* Domino's Pizza was the highest in both order quantity and total sales. From the bar chart, we learn that Domino's Pizza brings in the most sales, by far, in comparison to the rest of the restaurants that Zomato aggregates. However, this is only clear when looking at the SUM of the sales amount for all four years. The restaurant with the highest sales amount varies through the years since data is missing from the years of 2017 and 2020. It is interesting that not only the restaurant is popular but the simplistic cuisine seems to be favored by customers. This reiterates that American food chains are Zomato's most in-demand clientele.
+
+  Recommendations
+ * Zomato should focus more resources on Italian fast-food restaurants, specifically pizza cuisine.
+ * Zomato should take inventory of the lowest-performing restaurants and decide if it is in the company's best interest to keep servicing them.
+ * Zomato should invest in higher priced restaurants that make more profit from fewer orders, meaning more revenue while deploying less of the resources.
 
 ## Media
-![04C8B086-99C1-4CDA-A5BD-22900EEC8C08](https://github.com/user-attachments/assets/d941308b-5a7e-4a71-bab1-09c23af2a1d4)
-[Advertising Chart.pdf](https://github.com/user-attachments/files/18221774/Advertising.Chart.pdf)
+![0E38269F-7DB9-4784-A463-1691594E75E9_1_105_c](https://github.com/user-attachments/assets/687e6d9e-168c-4b43-a65d-d91db1637bcc)
 
-[Profits & Losses A.pdf](https://github.com/user-attachments/files/18221781/Profits.Losses.A.pdf)
+![A8496B02-7A3B-409A-8CAD-00A4AA7A6669_1_105_c](https://github.com/user-attachments/assets/2a0b41b8-d621-4789-9b47-195ff39723af)
 
-![9FEA711A-834E-44EE-86A9-70212D56B84C_1_102_o](https://github.com/user-attachments/assets/2dfc81fb-b4d2-4ff9-bc1b-719868d66db4)
+
+![F9AAB98E-3CCB-49B7-B996-9CE6C1C1F2C5](https://github.com/user-attachments/assets/1bce44b1-8ea1-45bc-847c-9b98b3299315)
+
+[Dashboard 1.pdf](https://github.com/user-attachments/files/18232439/Dashboard.1.pdf)
+
 
 
 ## Link to project page
-* https://public.tableau.com/views/SuperstoreReturnsAnalysis_17347924139440/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* [https://public.tableau.com/views/SuperstoreReturnsAnalysis_17347924139440/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/ZomatoRestaurantAnalysis_17347925757390/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ## Deployment Instructions & System Requirements
