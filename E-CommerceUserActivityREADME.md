@@ -38,8 +38,7 @@ Strategically speaking, restaurants with a negative correlation, specifically li
 
 
 ## Link to project page
-* [https://public.tableau.com/views/SuperstoreReturnsAnalysis_17347924139440/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/ZomatoRestaurantAnalysis_17347925757390/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
+* https://docs.google.com/spreadsheets/d/1zCk-BiFZGvS8r3g2QGe8Qj6i8srMiEok37ZqbSnf2uY/edit?usp=sharing
 
 ## Deployment Instructions & System Requirements
 #### Deployment Instructions for Google Sheets
