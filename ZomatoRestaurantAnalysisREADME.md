@@ -3,12 +3,11 @@
 ## Description & Methods
 This project was conducted for Zomato, a multinational restaurant aggregator and food delivery company. Its goal was to understand the business performance of restaurants and customers by having analysts choose an area of focus to build a research plan around, conduct the analysis, and deliver conclusions and suggestions. The research area chosen was Restaurant analysis; learning, from the data, things like what restaurants are popular, which generate the highest revenue, and why.
   * After choosing the type of analysis, the first part of the project was to build a plan- deciding on the metrics and parameters for the investigation, how to structure the dashboard, and making a detailed decomposition.
-  * 
-    The decomposition included:
-   *   Questions: What restaurants are popular? What cuisines are popular? What restaurants generate the highest revenue? Why? What are the most profitable areas or restaurants?
-   *   Hypothesis: The most popular and most profitable restaurants will have the biggest number of orders and highest sales amounts.
-   *   Visualizations: a heatmap, a bar chart, and a scatterplot.
-   *   Dashboard Assembly: The orders and restaurant tables will be combined using an Outer JOIN, specifically a LEFT JOIN through the ID and r_id fields.
+The decomposition included:
+    *   Questions: What restaurants are popular? What cuisines are popular? What restaurants generate the highest revenue? Why? What are the most profitable areas or restaurants?
+    *   Hypothesis: The most popular and most profitable restaurants will have the biggest number of orders and highest sales amounts.
+    *   Visualizations: a heatmap, a bar chart, and a scatterplot.
+    *   Dashboard Assembly: The orders and restaurant tables will be combined using an Outer JOIN, specifically a LEFT JOIN through the ID and r_id fields.
   * A heatmap visualization was created with the measures being; the Month of Order Date, State, and Average Profit. After the three best combinations of month and state were determined, a return on ad spend formula was used to tally what Superstore's advertising budget should be. They wanted to spend no more than 1/5th of their profits on advertising.
 
 ## Findings
