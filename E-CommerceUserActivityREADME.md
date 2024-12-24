@@ -15,20 +15,11 @@ The executive team of the E-commerce company is interested in understanding how 
    - Used TEXT() function to create event_month in column H and first_purchase_month in column I. The months were formatted as YYYY-MM
    - DATEDIF() function was used to create cohort_age in column J as the number of months between the first purchase and the event
 ### 3. Calculating retention rates
-  - aggregated purchase data into ...
-  #### Grouped data into cohorts
-  * using data ...
-  #### Calculated overall retention rates
-  * created a new sheet...
+  - Using the data from the “purchase_activity” sheet,  another pivot table was added as a new sheet called “cohort_analysis”. Used first_purchase_month for Rows, cohort_age for Columns, and user_id for Values.
+  - created a new blank sheet called “retention_rates”, labeled cells A3 to A7 for each cohort age in chronological order, added column labels in cells B2 to E2 that represent the cohort ages from 1 to 4 months, and in cell B3, write a formula that calculates the retention rate for each cohort at each cohort age in the table you created, based on the starting cohort sizes.
 ### 4. Organizing and documenting the spreadsheet
-  - The results synopsis and analysis descriptions in the spreadsheets were structured chronologically and comprehensively.
-  #### Results
-  * kdjrg
-  #### Analysis
-  * describe ...
-
-   - reordered
-   - formatted
+  - wrote a results synopsis briefly summarizing the results and conclusions from the 'conversion_funnel' and 'retention_rates" sheets.
+  - briefly explained the properties of each analysis; raw data, conversion funnel and retention rates.
 
 ## Findings
 * The business analysis found that 10.34% of product page views convert to purchases, which is considered a good conversion rate, generally speaking.
