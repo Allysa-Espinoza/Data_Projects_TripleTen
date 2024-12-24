@@ -2,31 +2,31 @@
 
 ## Description & Methods
 The executive team of the E-commerce company is interested in understanding how well the website  converts product page views into purchases. Exploring the raw transaction logs in their data shows each row represents an activity, or event, by a user on the company’s website. Each time a user views a product page, opens their shopping cart, or completes a purchase, the event is captured in the activity logs. With this, the project was divided into four main parts:
-1. Building a conversion funnel
+## 1. Building a conversion funnel
    - to better understand how users interact with the website
-2. Preparing data for cohort analysis
+## 2. Preparing data for cohort analysis
    - build acquisition cohorts
-#### Filtered purchases
+  ##### Filtered purchases
    * sheet contains
-#### Calculated first purchase dates
+  ##### Calculated first purchase dates
    * blah blah
-#### Setting up monthly data to build and track cohorts
+  ##### Setting up monthly data to build and track cohorts
    * using functions
-3. Calculating retention rates
-  * aggregated purchase data into ...
-#### Grouped data into cohorts
+## 3. Calculating retention rates
+  - aggregated purchase data into ...
+  ##### Grouped data into cohorts
   * using data ...
-#### Calculated overall retention rates
+  ##### Calculated overall retention rates
   * created a new sheet...
-4. Organizing and documenting the spreadsheet
-  * The results synopsis and analysis descriptions in the spreadsheets were structured chronologically and comprehensively.
-#### Results
+## 4. Organizing and documenting the spreadsheet
+  - The results synopsis and analysis descriptions in the spreadsheets were structured chronologically and comprehensively.
+  ##### Results
   * kdjrg
-#### Analysis
+  ##### Analysis
   * describe ...
 
-  * reordered
-  * formatted
+   - reordered
+   - formatted
 
 ## Findings
 * The business analysis found that 10.34% of product page views convert to purchases, which is considered a good conversion rate, generally speaking.
