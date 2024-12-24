@@ -1,4 +1,4 @@
-# ZOMATO RESTAURANT ANALYSIS
+# E-COMMERCE USER ACTIVITY ANALYSIS
 
 ## Description & Methods
 This project was conducted for Zomato, a multinational restaurant aggregator and food delivery company. Its goal was to understand the business performance of restaurants and customers by having analysts choose an area of focus to build a research plan around, conduct the analysis, and deliver conclusions and suggestions. The research area chosen was Restaurant analysis; learning, from the data, things like what restaurants are popular, which generate the highest revenue, and why.
