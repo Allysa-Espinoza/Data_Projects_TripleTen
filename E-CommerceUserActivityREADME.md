@@ -1,7 +1,8 @@
 # E-COMMERCE USER ACTIVITY ANALYSIS
 
 ## Description & Methods
-This project was conducted for Zomato, a multinational restaurant aggregator and food delivery company. Its goal was to understand the business performance of restaurants and customers by having analysts choose an area of focus to build a research plan around, conduct the analysis, and deliver conclusions and suggestions. The research area chosen was Restaurant analysis; learning, from the data, things like what restaurants are popular, which generate the highest revenue, and why.
+	The executive team is interested in understanding how well the website is converting product page views into purchases. to track cohort metrics month by month, conduct a cohort analysis.
+
   * After choosing the type of analysis, the first part of the project was to build a plan- deciding on the metrics and parameters for the investigation, how to structure the dashboard, and making a detailed decomposition.
 The decomposition included:
     *   Questions: What restaurants are popular? What cuisines are popular? What restaurants generate the highest revenue? Why? What are the most profitable areas or restaurants?
