@@ -3,15 +3,15 @@
 ## Description & Methods
 The executive team of the E-commerce company is interested in understanding how well the website  converts product page views into purchases. Exploring the raw transaction logs in their data shows each row represents an activity, or event, by a user on the company’s website. Each time a user views a product page, opens their shopping cart, or completes a purchase, the event is captured in the activity logs. With this, the project was divided into four main parts:
 1. Building a conversion funnel
-  * to better understand how users interact with the website
+   - to better understand how users interact with the website
 2. Preparing data for cohort analysis
-  * build acquisition cohorts
+   - build acquisition cohorts
 #### Filtered purchases
-  * sheet contains
+   * sheet contains
 #### Calculated first purchase dates
-  * blah blah
+   * blah blah
 #### Setting up monthly data to build and track cohorts
-  * using functions
+   * using functions
 3. Calculating retention rates
   * aggregated purchase data into ...
 #### Grouped data into cohorts
