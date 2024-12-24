@@ -16,20 +16,16 @@ The decomposition included:
 
 ## Findings
 * The business analysis found that 10.34% of product page views convert to purchases, which is considered a good conversion rate, generally speaking.
-* It was also found that retention rates are 
-
-
+* It was also found that retention rates are the highest in the cohort from '2020-09', and remain so for the longest time between all six cohort groups. While looking at the cohort analysis values can make it seem that the '2020-09' cohort has the least amount of conversions, only when you calculate the retention rates can you see what the numbers are really saying.
 
 ## Media
-![0E38269F-7DB9-4784-A463-1691594E75E9_1_105_c](https://github.com/user-attachments/assets/687e6d9e-168c-4b43-a65d-d91db1637bcc)
+![184D3992-DFBC-461A-BA94-BE29C0F71B01](https://github.com/user-attachments/assets/446ce2d8-31ef-415d-a131-634750299c58)
 
-![A8496B02-7A3B-409A-8CAD-00A4AA7A6669_1_105_c](https://github.com/user-attachments/assets/2a0b41b8-d621-4789-9b47-195ff39723af)
+![05F31C22-6792-403D-BADD-562E95A6F5D4](https://github.com/user-attachments/assets/5a79664c-b3af-4d2f-8f03-7b6e6e0d6e1f)
 
+![A5FEBB4E-888F-4DF3-AA1E-3552424CDFEB](https://github.com/user-attachments/assets/0ee6899c-67dc-46a6-b517-30eb014dac45)
 
-![F9AAB98E-3CCB-49B7-B996-9CE6C1C1F2C5](https://github.com/user-attachments/assets/1bce44b1-8ea1-45bc-847c-9b98b3299315)
-
-[Dashboard 1.pdf](https://github.com/user-attachments/files/18232439/Dashboard.1.pdf)
-
+[E-Commerce User Activity - Executive Summary.pdf](https://github.com/user-attachments/files/18238958/E-Commerce.User.Activity.-.Executive.Summary.pdf)
 
 
 ## Link to project page
@@ -38,8 +34,7 @@ The decomposition included:
 ## Deployment Instructions & System Requirements
 #### Deployment Instructions for Google Sheets
 * Access Google Sheets
-  * Via Web Browser: Google Sheets is a cloud-based application, so there’s no need to install software. You can access it directly through your web browser by visiting the following link:
-   * Google Sheets
+  * Via Web Browser: Google Sheets is a cloud-based application, so there’s no need to install software. You can access it directly through your web browser by visiting the following link: https://workspace.google.com/products/sheets/
   * Via Google Drive: If you’re logged into Google Drive, you can create and manage Google Sheets by clicking the "New" button and selecting Google Sheets from the dropdown menu.
 * Sign In
   *To use Google Sheets, you'll need a Google account. If you don’t have one, create a free Google account at Google Account Creation.
