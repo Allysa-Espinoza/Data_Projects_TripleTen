@@ -1,19 +1,32 @@
 # E-COMMERCE USER ACTIVITY ANALYSIS
 
 ## Description & Methods
-	The executive team is interested in understanding how well the website is converting product page views into purchases. to track cohort metrics month by month, conduct a cohort analysis.
+The executive team of the E-commerce company is interested in understanding how well the website  converts product page views into purchases. Exploring the raw transaction logs in their data shows each row represents an activity, or event, by a user on the company’s website. Each time a user views a product page, opens their shopping cart, or completes a purchase, the event is captured in the activity logs. With this, the project was divided into four main parts:
+ 1. Building a conversion funnel
+  * to better understand how users interact with the website
+ 2. Preparing data for cohort analysis
+  * build acquisition cohorts
+#### Filtered purchases
+  * sheet contains
+#### Calculated first purchase dates
+  * blah blah
+#### Setting up monthly data to build and track cohorts
+  * using functions
+ 3. Calculating retention rates
+  * aggregated purchase data into ...
+#### Grouped data into cohorts
+  * using data ...
+#### Calculated overall retention rates
+  * created a new sheet...
+ 4. Organizing and documenting the spreadsheet
+  * The results synopsis and analysis descriptions in the spreadsheets were structured chronologically and comprehensively.
+#### Results
+  * kdjrg
+#### Analysis
+  * describe ...
 
-  * After choosing the type of analysis, the first part of the project was to build a plan- deciding on the metrics and parameters for the investigation, how to structure the dashboard, and making a detailed decomposition.
-The decomposition included:
-    *   Questions: What restaurants are popular? What cuisines are popular? What restaurants generate the highest revenue? Why? What are the most profitable areas or restaurants?
-    *   Hypothesis: The most popular and most profitable restaurants will have the biggest number of orders and highest sales amounts.
-    *   Visualizations: a bubble map, a bar chart, and a scatterplot.
-    *   Dashboard Assembly: The orders and restaurant tables will be combined using an Outer JOIN, specifically a LEFT JOIN through the ID and r_id fields.
-  * Once the plan was completed, the construction of the visualizations and dashboard was next.
-    * The first is a bubble map, created based on the sum of the sales quantity of each restaurant.
-    * The second is a simple bar chart that compares the sales amount of each restaurant.
-    * The last is a scatter plot that factors in the number of orders versus the sales amount($) of the restaurants.
-  * Finally, the dashboard assembled contains all three visualizations that adjust to each others' filtered settings. The dashboard shows the bigger picture within the data as well as any specifics within.
+  * reordered
+  * formatted
 
 ## Findings
 * The business analysis found that 10.34% of product page views convert to purchases, which is considered a good conversion rate, generally speaking.
