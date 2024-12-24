@@ -5,17 +5,35 @@ The project was to be conducted in the role of a newly hired analyst to review t
 ### 1. App Landscape
  - To find key statistics on the types of apps there are, a new sheet 'App Landscape' was created and it used data from the Apps table
     - added a KPI Card counting the unique number of apps
-    -  
+    - added a Line Chart with the sum of the 'reviews_count' on the Y-Axis and the 'lastmod_date' on the X-Axis.
+    - Made a Scatterplot with the 'reviews_count' on the X-Axis and the 'rating' on the Y-Axis
 ### 2. Reviews
-- The acquisition cohorts were based on the month of a user's first purchase. The cohort metrics were also tracked by month.
-
+- Added a second sheet to the file named Reviews
+- added a column, 'helpful_reviews', to the Reviews table using the DAX expression, rating * (1+helpful_count).
+  - Made a Card with the average value of the new 'helpful_reviews' column
+- added another column, 'developer_answered' to the Reviews table using a DAX expression:
+  - developer_answered = IF(ISBLANK(Reviews[developer_reply]), 0, 1)
+  - Made a scatterplot comparing the average rating on the Y-Axis by the value of the 'developer_answered' column on the X-Axis
 ### 3. App Reviews
- - Using the data from the “purchase_activity” sheet,  another pivot table was added as a new sheet called “cohort_analysis”. Used first_purchase_month for Rows, cohort_age for Columns, and user_id for Values.
+- Added the last sheet of the file, App Reviews
+- In the data model, a new relationship between the Reviews table and the Apps table was created.
+  - Used the 'app_id' column from the Reviews table, and the 'id' column from the Apps table.
+  - Made the relationship many-to-one built as many (Reviews table) to one (Apps table).
+  - Lastly made a bar chart with the 'developer' on the X-Axis, and the sum of 'rating' on the Y-Axis.
+- Made a new bar chart with 'developer' on the X-Axis against the 'helpful_review' average on the Y-Axis to account for a possibly misleading previous visualization.
+- Made a bar chart with the 'developer' from the apps table and the new 'developer_answered' column
+  - added a filter for this visual which selects only the rows where reviews_count is greater than 500.
 
 
 ## Findings
-* The business analysis found that 10.34% of product page views convert to purchases, which is considered a good conversion rate, generally speaking.
-* It was also found that retention rates are the highest in the cohort from '2020-09', and remain so for the longest time between all six cohort groups. While looking at the cohort analysis values can make it seem that the '2020-09' cohort has the least amount of conversions, only when you calculate the retention rates can you see what the numbers are really saying.
+* Shopify holds 7,341 different apps on the platform
+* The average count of reviews fluctuates but stays under 50k after a steep drop from over 250k.
+* From the Scatterplot in task 2. it can be interpreted that the majority of reviews give a rating higher than 4.00. The highest average rating 4.60, was given by 24,780 reviewers. There were no 0.00-rating reviews but 9,239 of them were a full 5.00.
+* The average rating for helpful reviews (reviews weighed by how helpful they are found) was 5.48.
+* The average rating on replies from developers is above 4.5.
+* Elfsight is the developer among all the apps with the highest sum of rating.
+* Pictorem was the developer of the highest average helpful reviews.
+* DSers gave the highest amount of replies.
 
 ## Media
 ![36F989D3-C457-4A15-B026-7D02C9111A04](https://github.com/user-attachments/assets/28cda591-9390-4984-b61b-9a5ecd1dab47)
