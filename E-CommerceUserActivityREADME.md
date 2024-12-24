@@ -1,17 +1,19 @@
 # E-COMMERCE USER ACTIVITY ANALYSIS
 
 ## Description & Methods
-The executive team of the E-commerce company is interested in understanding how well the website  converts product page views into purchases. Exploring the raw transaction logs in their data shows each row represents an activity, or event, by a user on the company’s website. Each time a user views a product page, opens their shopping cart, or completes a purchase, the event is captured in the activity logs. With this, the project was divided into four main parts:
+The executive team of the E-commerce company is interested in understanding how well the website  converts product page views into purchases and better understanding how users interact with the website. Exploring the raw transaction logs in their data shows each row represents an activity, or event, by a user on the company’s website. Each time a user views a product page, opens their shopping cart, or completes a purchase, the event is captured in the activity logs. With this, the project was divided into four main parts:
 ### 1. Building a conversion funnel
-   - to better understand how users interact with the website
+   - Data from the “raw_user_activity” sheet was used to create the funnel in a pivot table as a new sheet called “conversion_funnel”
+   - The COUNTUNIQUE function delivered only three stages in the funnel
+   - using the counts in each stage, the 'total_conversion' and ' conversion_rates' columns were added to the pivot table with their respective calculations for each conversion stage.
 ### 2. Preparing data for cohort analysis
-   - build acquisition cohorts
-  #### Filtered purchases
-   * sheet contains
-  #### Calculated first purchase dates
-   * blah blah
-  #### Setting up monthly data to build and track cohorts
-   * using functions
+   - The acquisition cohorts were based on the month of a user's first purchase. The cohort metrics were also tracked by month.
+   - created the 'purchase_activity' page by selecting only the purchase event types from the 'raw_user_activity' sheet using a data filter.
+   - Using the new “purchase_activity” sheet data, inserted a pivot table as a new sheet called “first_purchase”. The pivot table settings were configured to calculate the minimum on the event_date field for each user.
+   - the data was transferred to a new column: first_purchase_date in cell G1 of the “purchase_activity” sheet. VLOOKUP function was used to find the date from the “first_purchase” sheet that corresponds to the user ID in cell A2.
+   - Three new columns were created to group the users and transactions by month for the cohort analysis: eveny_month, first_purchase_month, and cohort_age.
+   - Used TEXT() function to create event_month in column H and first_purchase_month in column I. The months were formatted as YYYY-MM
+   - DATEDIF() function was used to create cohort_age in column J as the number of months between the first purchase and the event
 ### 3. Calculating retention rates
   - aggregated purchase data into ...
   #### Grouped data into cohorts
