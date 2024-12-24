@@ -3,20 +3,14 @@
 ## Description & Methods
 The project was to be conducted in the role of a newly hired analyst to review the landscape of apps on the Shopify platform, using data scraped from publicly available Shopify websites to figure out what key factors play into the success of a Shopify app.  With this, the project was divided into three main tasks:
 ### 1. App Landscape
-   - To find key statistics on the types of apps there are, a new sheet 'App Landscape' was created and it used data from the Apps table
+ - To find key statistics on the types of apps there are, a new sheet 'App Landscape' was created and it used data from the Apps table
     - added a KPI Card counting the unique number of apps
     -  
 ### 2. Reviews
-   - The acquisition cohorts were based on the month of a user's first purchase. The cohort metrics were also tracked by month.
-   - created the 'purchase_activity' page by selecting only the purchase event types from the 'raw_user_activity' sheet using a data filter.
-   - Using the new “purchase_activity” sheet data, inserted a pivot table as a new sheet called “first_purchase”. The pivot table settings were configured to calculate the minimum on the event_date field for each user.
-   - the data was transferred to a new column: first_purchase_date in cell G1 of the “purchase_activity” sheet. VLOOKUP function was used to find the date from the “first_purchase” sheet that corresponds to the user ID in cell A2.
-   - Three new columns were created to group the users and transactions by month for the cohort analysis: eveny_month, first_purchase_month, and cohort_age.
-   - Used TEXT() function to create event_month in column H and first_purchase_month in column I. The months were formatted as YYYY-MM
-   - DATEDIF() function was used to create cohort_age in column J as the number of months between the first purchase and the event
+- The acquisition cohorts were based on the month of a user's first purchase. The cohort metrics were also tracked by month.
+
 ### 3. App Reviews
-  - Using the data from the “purchase_activity” sheet,  another pivot table was added as a new sheet called “cohort_analysis”. Used first_purchase_month for Rows, cohort_age for Columns, and user_id for Values.
-  - created a new blank sheet called “retention_rates”, labeled cells A3 to A7 for each cohort age in chronological order, added column labels in cells B2 to E2 that represent the cohort ages from 1 to 4 months, and in cell B3, write a formula that calculates the retention rate for each cohort at each cohort age in the table you created, based on the starting cohort sizes.
+ - Using the data from the “purchase_activity” sheet,  another pivot table was added as a new sheet called “cohort_analysis”. Used first_purchase_month for Rows, cohort_age for Columns, and user_id for Values.
 
 
 ## Findings
